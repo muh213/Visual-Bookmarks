@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Login</h1>
+        <form method="get">
+            <label>Username</label><input id='username' autofocus placeholder="USERNAME" type="text">
+        </form>
+        <button type="submit" id="login" onclick="render()">Next</button>
+    </div>
+
+    <script>
+        function render() {
+            var username = document.getElementById(['username']).value;
+
+            if (username == 'mzalam2009') return window.location.assign('mpassword.html');
+            if (username == 'ymalam2013//') return window.location.assign('ypassword.html');
+            //if (username !== 'mzalam2009' || 'ymalam2013//') return alert("Invalid user")
+
+
+            //if (password !== 'maryam123' || 'yousu\\f123') return alert("Invalid Username/Password combanation")
+            if (password == 'maryam123') return window.location.assign('muhammad.html');
+            //if (password == 'yousu\\123') return window.location.assign('yousuf.html');
+        }
+    </script>
+</body>
+
+</html>
+ymalam2013//
+<br>yousu\\f123
